@@ -16,11 +16,11 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 25;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+	font-size: 20px;
+	
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 0;
 }
 ol, ul {
 	list-style: none;
@@ -46,52 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
 /*My CSS*/
-header
-section#header
-{
-	float:left;
-	font-size:150%
-}
- 
-
-
-body
-{
-font-size:100%;
-font-family:verdana,arial,'sans-serif';
-background:url (../images/Logowatermark.jpg);
-background-repeat:repeat-x;
-background-color:#FFFFF0;
-color:#000000;
-margin:10px;
-}
-}
-p.margin
-{
-margin-top:100px;
-margin-bottom:100px;
-margin-right:100px;
-margin-left:500px;
-}
-}
-aside
-{
-float: left;
-font-family: Arial, "MS Trebuchet", sans-serif;
-color:black;
-}
-
-aside#noside {
-	
-}
-body 
-{background-color: white;
-	
-}
-
-section#sidebar
-{
-	float:left;
-}
 

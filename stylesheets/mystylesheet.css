@@ -16,11 +16,11 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 25;
+	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 20px;
-	
+	font-size: 100%;
+	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 0;
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -50,4 +50,26 @@ table {
 
 
 /*My CSS*/
+body{background-image: url("../images/logowatermark.jpg");background-size: 100%;}
 
+li{margin:1px;}
+
+p{padding:2px;}
+
+img{top: 100px;margin: 0 10px;}
+
+ol{list-style:disc;color:green;}
+
+ul{list-style:square;color:green;}
+
+.center{margin:0 50%;}
+
+	a:hover {color:yellow;background-color: blue;}
+	a:active{color:red;}
+
+.colorred{color:red;}
+
+table{position:fixed;bottom: 40px;color:white;font-size: 25px;}
+tr:nth-of-type(even){;background-color:yellow;}
+tr:nth-of-type(odd){;background-color:blue;}
+thead{background-color:white;}

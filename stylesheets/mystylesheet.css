@@ -106,13 +106,8 @@ th, td{
 
 .bestrow {border:2px solid yellow;}
 .bestcol {border:2px solid yellow;}
-.bestcol:first-child;{color:blue; background-color:black;}
-.bestcol:nth-child(2){color:purple; background-color:white;}
-.bestcol:nth-child(3){color:red; background-color:black;}
-.bestcol:nth-child(4){color:black; background-color:white;}
-.bestcol:nth-child(5){color:yellow; background-color:black;}
-.bestcol:nth-child(6){color:red; background-color:white;}
-.bestcol:nth-child(7){color:gray; background-color:black;}
-.bestcol:last-child{color:green;}
+.bestcol:first-child;{color:blue; background-color:white;}
+.bestcol:nth-child(3){color:purple; background-color:red;}
+
 .firstrow:nth-of-type(odd){color:blue;}
 .firstrow:nth-of-type(even){color:yellow;}

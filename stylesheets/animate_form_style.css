@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*My Stylesheet*/
+
+/*Animation Keyframes*/
+
+@keyframes crazyleft{
+	from{left: 1000px}
+	to{left:0;}
+}
+@-webkit-keyframes crazyleft{
+	from{left: 1000px}
+	to{left:0;}
+}
+
+header h1 a{
+background: url(../images/logo.jpg);
+background-position:0px 0px;
+height:142px;
+width:142px;
+display: inline-block;
+text-indent: -9999px;
+position:relative;
+animation:crazyleft 1s;
+-webkit-animation:crazyleft 1s;
+}
+
+footer ul li{
+float: left;
+list-style: none;
+}
+footer ul li a{
+	background:url(../images/magoneicons.png) no-repeat;
+	display : inline-block;
+
+	height: 47px;
+	width: 47px;
+	text-indent: -9999px;
+}
+
+	footer ul li:first-child a{
+	background-position:0px 0px;}
+	footer ul li:first-child a:hover{
+	background-position: 0px -48px;}
+
+	footer ul li:nth-child(2) a{
+	background-position: -47px 0px;}
+	footer ul li:nth-child(2) a:hover{
+	background-position: -47px -48px;}
+
+	footer ul li:nth-child(3) a{
+	background-position: -92px 0px;}
+	footer ul li:nth-child(3) a:hover{
+	background-position: -92px -48px;}
+
+	#main{
+		background:red;
+		width:1000px;
+		position:relative;
+		margin:0 auto;
+	}
+	.clear{
+		clear:both;
+	}
+
+	#navigate{
+		background:yellow;
+		position:left;
+		width:100px;
+
+	}
+	
+	#footer{
+		background:green;
+		position:bottom;
+		width:1000px;
+	}

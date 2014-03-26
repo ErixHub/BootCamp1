@@ -50,6 +50,34 @@ table {
 
 
 /*My CSS*/
+
+head ul li{
+float: left;
+list-style: none;
+}
+head ul li a{
+	background:url(../images/magoneicons.png) no-repeat;
+	display : inline-block;
+	height: 47px;
+	width: 47px;
+	text-indent: -9999px;
+}
+
+	head ul li:first-child a{
+	background-position:0px 0px;}
+	head ul li:first-child a:hover{
+	background-position: 0px -48px;}
+
+	head ul li:nth-child(2) a{
+	background-position: -47px 0px;}
+	head ul li:nth-child(2) a:hover{
+	background-position: -47px -48px;}
+
+	head ul li:nth-child(3) a{
+	background-position: -92px 0px;}
+	head ul li:nth-child(3) a:hover{
+	background-position: -92px -48px;}
+
 body{background-image: url("../images/logowatermark.jpg");background-size: auto; position:relative;}
 
 li{margin:5px;}
@@ -111,3 +139,4 @@ th, td{
 
 .firstrow:nth-of-type(odd){color:blue;}
 .firstrow:nth-of-type(even){color:yellow;}
+

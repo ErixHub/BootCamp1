@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day 9 HTML</title>
+</head>
+<body>
+<header><h1>Day 9 HTML</h1></header>
+<button type="button" onclick="myFunction()">STOP</button>
+<button type="button" onclick="addText('Bob')">Click this button</button>
+<br>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid blue">Your browser does not support html-5 canvas tag. <a href="www.firefox"></a></canvas>
+<script>
+	var c=document.getElementById("myCanvas");
+	var ctx=c.getContext("2d");
+	ctx.fillStyle="#FF0000";
+	ctx.fillRect(0,0,150,75);
+
+	ctx.linewidth=2;
+	ctx.beginPath();
+	ctx.moveTo(0,40);
+	ctx.lineTo(30,0);
+	ctx.lineTo(60,40)
+	ctx.lineTo(90,40)
+	ctx.lineTo(120,40);
+	ctx.lineTo(150,0)
+	ctx.lineTo(180,40)
+	ctx.stroke()
+	ctx.closePath();
+
+	ctx.beginPath()
+	ctx.arc(95,50,40,0,2*Math.PI);
+	ctx.stroke()
+	ctx.closePath();
+
+	ctx.beginPath()
+	ctx.arc(100,55,45,0,2*Math.PI);
+	ctx.stroke()
+	ctx.closePath();
+
+	ctx.beginPath();
+	ctx.fillStyle="000000";
+	ctx.font="30px Arial";
+	ctx.fillText("Hello",10,100);
+	closePath();
+
+	ctx.beginPath();
+	ctx.fillStyle="000000";
+	ctx.font="40px Georgia";
+	var gradient=ctx.createLinearGradient(0,0,c.width,0);
+	gradient.addColorStop("0","magenta");
+	gradient.addColorStop("0.5","blue");
+	gradient.addColorStop("1.0","red");
+	ctxstrokeStyle=gradient;
+	ctx.strokeText("Hello",85,100);
+	closePath();
+
+
+
+
+
+
+
+
+
+	var a = 3
+	var b = 4
+	var c = a + b
+	var d = "Dog";
+	alert(c)
+
+	function myFunction ()
+	{
+		alert("Why did you click that button?")
+	}	
+
+	
+	
+
+
+
+	function addText (name)
+	{
+		
+		document.write("<h3> Or <h1 id=\"name\">" + name +"</h1> Did you click it again! </h3>");
+		document.write("<button type=\"button\"	onclick=\"changeColor()\">Change Color</button> ")
+	}
+
+	function changeColor () 
+		{
+			var x=document.getElementById("name");
+			x.style.color = "#DC143C";
+			if (x.innerHTML == "Bob")
+			{
+				document.write("<h1>No Bob No</h1>")
+			}
+		}
+
+</script>
+
+</body>
+</html>

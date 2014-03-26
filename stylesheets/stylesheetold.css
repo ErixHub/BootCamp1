@@ -1,0 +1,189 @@
+
+html{background:url(../images/milkyway.jpg) no-repeat;
+	background-position:center;
+}
+body p {
+	position:left;
+}
+body ul li a{
+	background:url(../images/planeticons.png);
+	display : inline-block;
+	height: 23px;
+	width: 82px;
+	text-indent: -9999px;
+
+}
+	body ul li:first-child a{
+	background-position: 0px 0px;}
+	body ul li:first-child a:hover{
+	background-position: 0px -23px;}
+
+	body ul li:nth-child(2) a{
+	background-position: -59px 0px;}
+	body ul li:nth-child(2) a:hover{
+	background-position: -59px -23px;}
+
+	body ul li:nth-child(3) a{
+	background-position: -140px 0px;}
+	body ul li:nth-child(3) a:hover{
+	background-position: -140px -23px;}
+
+	body ul li:nth-child(4) a{
+	background-position: -224px 0px;}
+	body ul li:nth-child(4) a:hover{
+	background-position: -224px -23px;}
+
+	body ul li:nth-child(5) a{
+	background-position: -312px 0px;}
+	body ul li:nth-child(5) a:hover{
+	background-position: -312px -23px;}
+
+	body ul li:nth-child(6) a{
+	background-position: -396px 0px;}
+	body ul li:nth-child(6) a:hover{
+	background-position: -396px -23px;}
+
+	body ul li:nth-child(7) a{
+	background-position: -480px 0px;}
+	body ul li:nth-child(7) a:hover{
+	background-position: -480px -23px;}
+
+	body ul li:nth-child(8) a{
+	background-position: -556px 0px;}
+	body ul li:nth-child(8) a:hover{
+	background-position: -556px -23px;}
+
+	body ul li:nth-child(9) a{
+	background-position: -632px 0px;}
+	body ul li:nth-child(9) a:hover{
+	background-position: -632px -23px;}
+
+	body ul li:nth-child(10) a{
+	background-position: -714px 0px;}
+	body ul li:nth-child(10) a:hover{
+	background-position: -714px -23px;}
+	body ul li:nth-child(11) a{
+	background-position: -798px 0px;}
+	body ul li:nth-child(11) a:hover{
+	background-position: -798px -23px;}
+
+	body ul li:nth-child(12) a{
+	background-position: -860px 0px;}
+	body ul li:nth-child(12) a:hover{
+	background-position: -860px -23px;}
+	body ul li:nth-child(13) a{
+	background-position: -945px 0px;}
+	body ul li:nth-child(13) a:hover{
+	background-position: -945px -23px;}
+
+#main{
+	background:#0066CC;
+	width:82px;
+	position:relative;
+	margin:0 auto;}
+
+	
+#top{background:url(../images/pagehead.jpg) no-repeat;
+	width: 1000px; height:50px; background-color: black; position:top;
+	margin: 0px; 
+	padding: 25px; 
+	border: 0px; 
+	text-indent: 100px;
+}
+#content{width: 1000px; background-color: black; position:relative;
+	margin: 0px; 
+	padding: 25px; 
+	border: 0px; 
+	font-size: 18px; font-color:white;
+	text-indent: 0px;
+}
+
+#bottom{background:url(../images/milkyway.jpg) no-repeat; background-position: top;
+	width: 1000px; height:100px; position:relative;
+	margin: 0px; 
+	padding: 25px; 
+	border: 0px; 
+	font-size: 18px;
+	text-indent: 100px;
+}
+body ul li{
+
+float: left;
+list-style: none;
+font-size: 18px;
+}
+#navigate{
+		background:black;
+		position:left;
+		width:82px;
+		height:23px;
+	}
+/*#navigate{
+	width: 1100px;  
+	margin: 0px; 
+	padding: 0px; 
+	border: 0px; 
+	
+	text-indent: 0px;
+}*/
+
+body{
+	margin: auto;
+	padding: 0px; 
+	border: 0px; 
+	font-size: 18px;
+	text-indent: 0px;
+	}
+	
+	
+	footer{
+		width: 1280px; background:url(../images/milkyway.jpg) no-repeat; background-position:top;
+		margin: 0px;
+		padding: 25px;
+		border: 0px;
+		font-size: 12px;
+		vertical-align: baseline
+
+	}
+	
+	img{
+		float:left;
+		padding-top: 25px;
+	}
+	p{font-size:18px:; color:white; }
+	h1{font-size: 48px; color:white;}
+
+	h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-weight: 100;
+  color:#FFFFFF;
+  font-family: 'tahoma', 'Calibri', Helvetica, Arial, sans-serif;
+  letter-spacing: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  padding-bottom: 10px;
+  font-size: 32px;
+  
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 21px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 12px;
+}

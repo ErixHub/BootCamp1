@@ -1,0 +1,218 @@
+/*StyleSheet Template*/
+
+/*@charset "utf-8";*/
+
+/*opacity:0.2;*/
+
+html{background:url(../images/milkywayfade.jpg);
+	background-clip:border-box;
+}
+ header{background-color:rgba(0,128,255,0.3);
+}
+ html, body {
+
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ color: #000;
+ }
+ aside{
+ 	float:left;
+ 	width:0px;
+ 	margin:70px;
+ 	padding:0px;
+}
+
+ .aside{
+ 	font-family: "Verdana", Georgia,Serif;
+	font-size:18px;
+ }
+ 
+ body, p, th, td, ul, li, dd, dt {
+ font: 14px "Verdana", Georgia,Serif;
+ list-style-type: none;
+ }
+ h1, h2, h3, h4, h5, h6 {
+ font-family: "Verdana", Georgia,Serif; 
+ }
+ h1 { font-size: 48px;  color:black;}
+ h2 { font-size: 36px;  color:black;}
+ h3 { font-size: 24px;  color:#FFF;}
+ h4 { font-size: 14px;  color:black;}
+ h5 { font-size: 12px;  color:black;}
+ h6 { font-size: 10px;  color:blue;}
+ a:link { color: blue;  color:black;}
+ a:visited { color: purple; }
+ a:hover { color: yellow; }
+ a:active { color: red; }
+/*SIDEBAR NAVIGATION*/
+	#navigate{
+	float:left;
+	width:150px;  
+	margin: 0px; 
+	padding: 0px; 
+	border: 0px; 
+}
+/*SECTION ELEMENT*/
+	
+	#section{
+		/*background:url("../images/milkyway.jpg");*/
+		background:url(../images/pagehead.jpg)no-repeat;
+		background-color:rgba(0,128,255,0.2);
+		/*background:url(../images/milkyway.jpg) no-repeat;*/
+		/*background-color: yellow;*/
+		background-clip:padding-box;
+		float:right;
+		margin-right: 200px;
+		width:900px;
+		height:relative;
+		margin-top: 70px;
+		padding-top: 30px;
+		padding-left:10px;
+		padding-right:20px;
+		padding-bottom:1px;
+}
+/*CONTENT of SECTION ELEMENT*/
+	#content{
+	-webkit-column-count:2; /* Safari & Chrome */
+	-moz-column-count:2; /* Firefox */
+	column-count:2; /* Everyone Else */
+	-webkit-column-gap:15px;
+	-moz-column-gap:15px;
+	column-gap:15px;
+	-webkit-column-rule:3px outset #FFF;
+	-moz-column-rule:5px outset blue;
+	column-rule:5px outset blue;
+	position:relative;
+	left:0px;
+		background-color: transparent;
+		position:relative;
+		left:10px;
+		top:10px;
+		bottom:relative;
+	}
+	/*ARTICLE of SECTION ELEMENT*/
+	#article{background-color: #CCCCCC;
+	-webkit-column-count:3; /* Safari & Chrome */
+	-moz-column-count:3; /* Firefox */
+	column-count:3; /* Everyone Else */
+	-webkit-column-gap:15px;
+	-moz-column-gap:15px;
+	column-gap:15px;
+	-webkit-column-rule:3px outset #CCA352;
+	-moz-column-rule:5px outset blue;
+	column-rule:5px outset blue;
+	position:relative;
+	left:0px;
+	}
+	#article1{
+		background-image: url(../images/moons.jpg);
+		float:right;
+		width:300px;
+		height:300px;
+		
+	}
+	#article2{
+		background-image: url(../images/comets.jpg);
+		background-color:white;
+		float:right;
+		width:300px;
+		height:300px;
+		
+	}
+	#article3{
+		background-image: url(../images/astroids.jpg);
+		background-color:blue;
+		float:right;
+		width:300px;
+		height:300px;
+		
+	}
+	#footer{
+		background-color:#FFF;
+		top:1000px;
+		width:900px;
+		height:300px;
+	}
+	#form{
+		background-image: url(../images/milkywayfade.jpg): no-repeat;
+		float:right;
+		margin-right: 500px;
+		height:relative;
+		margin-top: 70px;
+		padding-top: 30px;
+		padding-left:10px;
+		padding-right:20px;
+		padding-bottom:1px;
+	}
+	/*Page Links*/
+
+ /*body ul li a{
+	background:url(../images/planeticons.png);
+	position:top;
+	display : inline-block;
+	text-indent: -9999px;
+	}
+	
+	body ul li:first-child a{
+	background-position: 0px 0px;}
+	body ul li:first-child a:hover{
+	background-position: 0px -23px;}
+
+	body ul li:nth-child(2) a{
+	background-position: -59px 0px;}
+	body ul li:nth-child(2) a:hover{
+	background-position: -59px -23px;}
+
+	body ul li:nth-child(3) a{
+	background-position: -140px 0px;}
+	body ul li:nth-child(3) a:hover{
+	background-position: -140px -23px;}
+
+	body ul li:nth-child(4) a{
+	background-position: -224px 0px;}
+	body ul li:nth-child(4) a:hover{
+	background-position: -224px -23px;}
+
+	body ul li:nth-child(5) a{
+	background-position: -312px 0px;}
+	body ul li:nth-child(5) a:hover{
+	background-position: -312px -23px;}
+
+	body ul li:nth-child(6) a{
+	background-position: -396px 0px;}
+	body ul li:nth-child(6) a:hover{
+	background-position: -396px -23px;}
+
+	body ul li:nth-child(7) a{
+	background-position: -480px 0px;}
+	body ul li:nth-child(7) a:hover{
+	background-position: -480px -23px;}
+
+	body ul li:nth-child(8) a{
+	background-position: -556px 0px;}
+	body ul li:nth-child(8) a:hover{
+	background-position: -556px -23px;}
+
+	body ul li:nth-child(9) a{
+	background-position: -632px 0px;}
+	body ul li:nth-child(9) a:hover{
+	background-position: -632px -23px;}
+
+	body ul li:nth-child(10) a{
+	background-position: -714px 0px;}
+	body ul li:nth-child(10) a:hover{
+	background-position: -714px -23px;}
+	body ul li:nth-child(11) a{
+	background-position: -798px 0px;}
+	body ul li:nth-child(11) a:hover{
+	background-position: -798px -23px;}
+
+	body ul li:nth-child(12) a{
+	background-position: -860px 0px;}
+	body ul li:nth-child(12) a:hover{
+	background-position: -860px -23px;}
+	body ul li:nth-child(13) a{
+	background-position: -945px 0px;}
+	body ul li:nth-child(13) a:hover{
+	background-position: -945px -23px;}*/

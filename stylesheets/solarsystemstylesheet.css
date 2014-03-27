@@ -118,8 +118,8 @@ font: 14px "Verdana", Georgia,Serif;
 		/*background-color: yellow;*/
 		background-clip:padding-box;
 		position:relative;
-		float:right;
-		margin-right: 200px;
+		float:left;
+		margin-left: 55px;
 		width:900px;
 		height:relative;
 		margin-top: 10px;

@@ -5,28 +5,82 @@
 /*opacity:0.2;*/
 
 html{background:url(../images/milkywayfade.jpg);
-	background-clip:border-box;
+	background-clip:padding-box;
 }
- header{background-color:rgba(0,128,255,0.3);
+
+ header{background-color:rgba(0,128,255,0.2);
 }
  html, body {
-
+font: 14px "Verdana", Georgia,Serif;
  margin: 0px;
  padding: 0px;
  border: 0px;
  color: #000;
  }
- aside{
+ aside{background-color:rgba(0,128,255,0.2);
  	float:left;
  	width:0px;
  	margin:70px;
  	padding:0px;
 }
 
- .aside{
- 	font-family: "Verdana", Georgia,Serif;
-	font-size:18px;
- }
+ 	#navlist{position:relative;}
+	#linkbar li{margin:0;padding:0;list-style:none;}
+	#linkbar li, 
+	#linkbar a{ width:85px;height:26px;display:inline-block;}
+		
+	#home{background:url("../images/asidebar.png") 1px -1px;}
+	#home a:hover{background: url("../images/asidebar.png") -88px -1px;}
+
+	
+	#sun{background:url("../images/asidebar.png") 1px -39px;}
+	#sun a:hover{background: url("../images/asidebar.png") -95px -39px;}
+
+	
+	#mercury{background:url("../images/asidebar.png") 1px -77px;}
+	#mercury a:hover{background: url("../images/asidebar.png") -95px -77px;}
+
+	
+	#venus{background:url("../images/asidebar.png") 1px -115px;}
+	#venus a:hover{background: url("../images/asidebar.png") -95px -115px;}
+
+	
+	#earth{background:url("../images/asidebar.png") 1px -154px;}
+	#earth a:hover{background: url("../images/asidebar.png") -95px -154px;}
+
+	
+	#mars{background:url("../images/asidebar.png") 1px -192px;}
+	#mars a:hover{background: url("../images/asidebar.png") -95px -192px;}
+
+	
+	#jupiter{background:url("../images/asidebar.png") 1px -230px;}
+	#jupiter a:hover{background: url("../images/asidebar.png") -95px -230px;}
+
+	
+	#saturn{background:url("../images/asidebar.png") 1px -268px;}
+	#saturn a:hover{background: url("../images/asidebar.png") -95px -268px;}
+
+	
+	#uranus{background:url("../images/asidebar.png") 1px -306px;}
+	#uranus a:hover{background: url("../images/asidebar.png") -95px -306px;}
+
+	
+	#neptune{background:url("../images/asidebar.png") 1px -344px;}
+	#neptune a:hover{background: url("../images/asidebar.png") -95px -344px;}
+
+	
+	#pluto{background:url("../images/asidebar.png") 1px -382px;}
+	#pluto a:hover{background: url("../images/asidebar.png") -95px -382px;}
+
+	
+	/*#email{background:url("../images/asidebar.png") -57px -422px;}
+	#email a:hover{background: url("../images/asidebar.png") -57px -422px;}*/
+
+	
+	#feedback{background:url("../images/asidebar.png") 1px -458px;}
+	#feedback a:hover{background: url("../images/asidebar.png") -95px -458px;}
+
+}
  
  body, p, th, td, ul, li, dd, dt {
  font: 14px "Verdana", Georgia,Serif;
@@ -48,10 +102,10 @@ html{background:url(../images/milkywayfade.jpg);
 /*SIDEBAR NAVIGATION*/
 	#navigate{
 	float:left;
-	width:150px;  
+	/*width:100px;  
 	margin: 0px; 
 	padding: 0px; 
-	border: 0px; 
+	border: 0px; */
 }
 /*SECTION ELEMENT*/
 	
@@ -59,19 +113,21 @@ html{background:url(../images/milkywayfade.jpg);
 		/*background:url("../images/milkyway.jpg");*/
 		background:url(../images/pagehead.jpg)no-repeat;
 		background-color:rgba(0,128,255,0.2);
+
 		/*background:url(../images/milkyway.jpg) no-repeat;*/
 		/*background-color: yellow;*/
 		background-clip:padding-box;
+		position:relative;
 		float:right;
 		margin-right: 200px;
 		width:900px;
 		height:relative;
-		margin-top: 70px;
-		padding-top: 30px;
+		margin-top: 10px;
+		padding-top: 20px;
 		padding-left:10px;
 		padding-right:20px;
-		padding-bottom:1px;
-}
+		padding-bottom:1px;}
+		
 /*CONTENT of SECTION ELEMENT*/
 	#content{
 	-webkit-column-count:2; /* Safari & Chrome */
@@ -80,59 +136,26 @@ html{background:url(../images/milkywayfade.jpg);
 	-webkit-column-gap:15px;
 	-moz-column-gap:15px;
 	column-gap:15px;
-	-webkit-column-rule:3px outset #FFF;
-	-moz-column-rule:5px outset blue;
-	column-rule:5px outset blue;
+	-webkit-column-rule:1px outset #FFF;
+	-moz-column-rule:1px outset blue;
+	column-rule:1px outset blue;
 	position:relative;
 	left:0px;
-		background-color: transparent;
+		background-image: url(../images/milkyway.jpg): no-repeat;
+		background-clip:content-box;
+		background-color:rgba(0,128,255,0.0);
 		position:relative;
 		left:10px;
+		right:5px;
 		top:10px;
 		bottom:relative;
 	}
-	/*ARTICLE of SECTION ELEMENT*/
-	#article{background-color: #CCCCCC;
-	-webkit-column-count:3; /* Safari & Chrome */
-	-moz-column-count:3; /* Firefox */
-	column-count:3; /* Everyone Else */
-	-webkit-column-gap:15px;
-	-moz-column-gap:15px;
-	column-gap:15px;
-	-webkit-column-rule:3px outset #CCA352;
-	-moz-column-rule:5px outset blue;
-	column-rule:5px outset blue;
-	position:relative;
-	left:0px;
-	}
-	#article1{
-		background-image: url(../images/moons.jpg);
-		float:right;
-		width:300px;
-		height:300px;
-		
-	}
-	#article2{
-		background-image: url(../images/comets.jpg);
-		background-color:white;
-		float:right;
-		width:300px;
-		height:300px;
-		
-	}
-	#article3{
-		background-image: url(../images/astroids.jpg);
-		background-color:blue;
-		float:right;
-		width:300px;
-		height:300px;
-		
-	}
+	
 	#footer{
-		background-color:#FFF;
+		background-color:transparent;
 		top:1000px;
 		width:900px;
-		height:300px;
+		height:20px;
 	}
 	#form{
 		background-image: url(../images/milkywayfade.jpg): no-repeat;
@@ -145,74 +168,23 @@ html{background:url(../images/milkywayfade.jpg);
 		padding-right:20px;
 		padding-bottom:1px;
 	}
-	/*Page Links*/
+	#navlist{position:relative;}
+	#navlist li{margin:0;padding:0;list-style:none;}
+	#navlist li, 
+	#navlist a{ width:100px;height:100px;display:inline-block;}
 
- /*body ul li a{
-	background:url(../images/planeticons.png);
-	position:top;
-	display : inline-block;
-	text-indent: -9999px;
-	}
+	/*#astro{left:2px;width:100px;}*/
+	#astro{background:url("../images/articlesprite.png") 0px 0px;}
+	#astro a:hover{background: url("../images/articlesprite.png") 0 -98px;}
+
+	/*#comet{left:-99px;width:100px;}*/
+	#comet{background:url("../images/articlesprite.png") -99px 0px;}
+	#comet a:hover{background: url("../images/articlesprite.png") -99px -98px;}
+
+	/*#moon{left:-196px;width:100px;}*/
+	#moon{background:url("../images/articlesprite.png") -197px 0px;}
+	#moon a:hover{background: url("../images/articlesprite.png") -197px -98px;}
 	
-	body ul li:first-child a{
-	background-position: 0px 0px;}
-	body ul li:first-child a:hover{
-	background-position: 0px -23px;}
-
-	body ul li:nth-child(2) a{
-	background-position: -59px 0px;}
-	body ul li:nth-child(2) a:hover{
-	background-position: -59px -23px;}
-
-	body ul li:nth-child(3) a{
-	background-position: -140px 0px;}
-	body ul li:nth-child(3) a:hover{
-	background-position: -140px -23px;}
-
-	body ul li:nth-child(4) a{
-	background-position: -224px 0px;}
-	body ul li:nth-child(4) a:hover{
-	background-position: -224px -23px;}
-
-	body ul li:nth-child(5) a{
-	background-position: -312px 0px;}
-	body ul li:nth-child(5) a:hover{
-	background-position: -312px -23px;}
-
-	body ul li:nth-child(6) a{
-	background-position: -396px 0px;}
-	body ul li:nth-child(6) a:hover{
-	background-position: -396px -23px;}
-
-	body ul li:nth-child(7) a{
-	background-position: -480px 0px;}
-	body ul li:nth-child(7) a:hover{
-	background-position: -480px -23px;}
-
-	body ul li:nth-child(8) a{
-	background-position: -556px 0px;}
-	body ul li:nth-child(8) a:hover{
-	background-position: -556px -23px;}
-
-	body ul li:nth-child(9) a{
-	background-position: -632px 0px;}
-	body ul li:nth-child(9) a:hover{
-	background-position: -632px -23px;}
-
-	body ul li:nth-child(10) a{
-	background-position: -714px 0px;}
-	body ul li:nth-child(10) a:hover{
-	background-position: -714px -23px;}
-	body ul li:nth-child(11) a{
-	background-position: -798px 0px;}
-	body ul li:nth-child(11) a:hover{
-	background-position: -798px -23px;}
-
-	body ul li:nth-child(12) a{
-	background-position: -860px 0px;}
-	body ul li:nth-child(12) a:hover{
-	background-position: -860px -23px;}
-	body ul li:nth-child(13) a{
-	background-position: -945px 0px;}
-	body ul li:nth-child(13) a:hover{
-	background-position: -945px -23px;}*/
+	
+	
+	

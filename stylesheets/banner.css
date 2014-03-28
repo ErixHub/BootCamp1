@@ -1,0 +1,128 @@
+* {margin: 0; padding: 0;}
+ html h2 {font-size: 48px;  color:white;}
+ html h3 {font-size: 18px;  color:white;}
+body {
+    /*<!-- src: http://subtlepatterns.com/?p=1045 -->*/
+    background-color:black;
+
+}
+ 
+#container {
+    width: 1500px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+/*header*/
+header {
+width: 800px;
+ margin: 50px auto;
+}
+
+header h1 {
+text-align: center;
+font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+
+h2 { font-size: 48px;  color:white;}
+
+font: 100 15px/1.5 Helvetica, Verdana, sans-serif; color:white;
+text-align: justify;
+}
+ header h2 {
+  text-align: relative;
+  font : 48px Helvetica,Verdana, sans-serif;
+ }
+/*photobanner*/
+
+.photobanner {
+background-color:black; 
+height: 500px;
+width: 3500px;
+margin-bottom: 50px;
+}
+
+/*keyframe animations*/
+.first {
+    -webkit-animation: bannermove 40s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -3000px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3000px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3000px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3000px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3000px;
+ }
+ 
+}
+
+.photobanner {
+    height: 233px;
+    width: 3000px;
+    margin-bottom: 50px;
+}
+ 
+.photobanner img {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+ 
+.photobanner img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+ 
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
